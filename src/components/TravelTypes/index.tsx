@@ -2,7 +2,7 @@ import { Flex, Image, Text } from '@chakra-ui/react';
 
 export function TravelTypes() {
   return (
-    <Flex w="100vw" align="center" justify="center" my="32">
+    <Flex maxW="100vw" align="center" justify="center" my="32">
       <Flex w="100%" maxW={1240} align="center" justifyContent="space-between">
         <Flex direction="column" align="center">
           <Image src="/cocktail.svg" alt="bebida" w="20" h="20" />

@@ -3,7 +3,7 @@ import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react';
 export function Banner() {
   return (
     <Flex
-      w="100vw"
+      maxW="100vw"
       h="80"
       minH="80"
       align="center"
