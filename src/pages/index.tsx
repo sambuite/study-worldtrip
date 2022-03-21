@@ -1,5 +1,6 @@
 import { Box, Flex, Heading } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import { Banner } from '../components/Banner';
 import { ContinentsSlide } from '../components/ContinentsSlide';
 import { Header } from '../components/Header';
@@ -19,18 +20,24 @@ interface HomeProps {
 
 export default function Home({ continents }: HomeProps) {
   return (
-    <Flex direction="column" h="100vh" w="100wh">
-      <Header />
-      <Banner />
-      <TravelTypes />
-      <Box w="24" h="0.5" mx="auto" bgColor="gray.600" />
+    <>
+      <Head>
+        <title>Início | worldtrip</title>
+      </Head>
 
-      <Heading whiteSpace="pre" fontSize="4xl" textAlign="center" my="10">
-        {'Vamos nessa?\nEntão escolha seu continente'}
-      </Heading>
+      <Flex direction="column" h="100vh" w="100wh">
+        <Header />
+        <Banner />
+        <TravelTypes />
+        <Box w="24" h="0.5" mx="auto" bgColor="gray.600" />
 
-      <ContinentsSlide continents={continents} />
-    </Flex>
+        <Heading whiteSpace="pre" fontSize="4xl" textAlign="center" my="10">
+          {'Vamos nessa?\nEntão escolha seu continente'}
+        </Heading>
+
+        <ContinentsSlide continents={continents} />
+      </Flex>
+    </>
   );
 }
 
@@ -38,8 +45,6 @@ export const getStaticProps: GetStaticProps = async () => {
   const response = await api.get(`/continents`);
 
   const continents = response.data;
-
-  console.log(response);
 
   return {
     props: {
