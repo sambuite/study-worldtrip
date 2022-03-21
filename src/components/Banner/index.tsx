@@ -5,6 +5,7 @@ export function Banner() {
     <Flex
       w="100vw"
       h="80"
+      minH="80"
       align="center"
       justify="center"
       bgImage="url('https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a')"

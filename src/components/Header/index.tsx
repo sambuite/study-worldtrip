@@ -7,6 +7,7 @@ export function Header() {
       w="100%"
       maxWidth={1480}
       h="20"
+      minH="20"
       mx="auto"
       alignItems="center"
       justifyContent="center"
