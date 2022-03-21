@@ -12,28 +12,38 @@
       "famousCities": [
         {
           "id": 1,
-          "city": "Londres",
-          "state": "Reino Unido"
+          "name": "Londres",
+          "country": "Reino Unido",
+          "imageUrl": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg"
         },
         {
           "id": 2,
-          "city": "Paris",
-          "state": "França"
+          "name": "Paris",
+          "country": "França",
+          "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_France_%281794–1815%2C_1830–1974%2C_2020–present%29.svg"
         },
         {
           "id": 3,
-          "city": "Roma",
-          "state": "Itália"
+          "name": "Roma",
+          "country": "Itália",
+          "imageUrl": "https://images.unsplash.com/photo-1531572753322-ad063cecc140",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
         },
         {
           "id": 4,
-          "city": "Praga",
-          "state": "República Tcheca"
+          "name": "Praga",
+          "country": "República Tcheca",
+          "imageUrl": "https://images.unsplash.com/photo-1577102763336-4b923556c512",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
         },
         {
           "id": 5,
-          "city": "Asmsterdã",
-          "state": "Holanda"
+          "name": "Asmsterdã",
+          "country": "Holanda",
+          "imageUrl": "https://images.unsplash.com/photo-1558551649-e44c8f992010",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
         }
       ]
     },
@@ -41,31 +51,36 @@
       "id": 2,
       "name": "Oceania",
       "description": "O novíssimo mundo",
-      "imageUrl": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3"
+      "imageUrl": "https://images.unsplash.com/photo-1589330273594-fade1ee91647",
+      "famousCities": []
     },
     {
       "id": 3,
       "name": "América do Norte",
       "description": "Onde tempo é dinheiro",
-      "imageUrl": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3"
+      "imageUrl": "https://images.unsplash.com/photo-1616832880279-0f4f2de8cb27",
+      "famousCities": []
     },
     {
       "id": 4,
       "name": "América do Sul",
       "description": "O lar da amazônia",
-      "imageUrl": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3"
+      "imageUrl": "https://images.unsplash.com/photo-1543385426-191664295b58",
+      "famousCities": []
     },
     {
       "id": 5,
       "name": "Ásia",
       "description": "O maior dos continentes",
-      "imageUrl": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3"
+      "imageUrl": "https://images.unsplash.com/photo-1532236395709-7d70320fec2d",
+      "famousCities": []
     },
     {
       "id": 6,
       "name": "África",
       "description": "O paraíso cultural",
-      "imageUrl": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3"
+      "imageUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e",
+      "famousCities": []
     }
   ]
 }

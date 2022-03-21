@@ -1,4 +1,5 @@
 import { Flex, Heading, Text } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 import {
   EffectFade,
   Keyboard,
@@ -25,6 +26,12 @@ interface ContinentsSlideProps {
 }
 
 export function ContinentsSlide({ continents }: ContinentsSlideProps) {
+  const router = useRouter();
+
+  function handleOpenPage(id: number) {
+    router.push(`/continents/${id}`);
+  }
+
   return (
     <Flex w="100%" maxW="100vw">
       <Flex w="100%" maxW={1240} h={450} mx="auto" mb="12">
@@ -48,7 +55,7 @@ export function ContinentsSlide({ continents }: ContinentsSlideProps) {
                 flexDirection="column"
                 h={'450px'}
                 cursor="pointer"
-                onClick={() => {}}
+                onClick={() => handleOpenPage(continent.id)}
               >
                 <Heading
                   fontSize={'5xl'}
