@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src=".github/logo.svg" width="300"/>
+</p>
 
-## Getting Started
+<br />
 
-First, run the development server:
+<p align="left">
+  <a href="https://www.linkedin.com/in/murilosambuite/"> 
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="sambuite`s linkedIn"
+    />
+  </a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
+## :camera: Demo
+
+<p align="center">
+  <img align="center" src=".github/1.png" border="0">
+</p>
+
+<p align="center">
+  <img align="center" src=".github/2.png" border="0">
+</p>
+
+<p align="center">
+  <img align="center" src=".github/3.png" border="0">
+</p>
+
+<p align="center">
+  <img align="center" src=".github/4.png" border="0">
+</p>
+
+<br />
+
+## :hammer: Tools/Technologies
+
+<em>This front-end features the latest tools and practices in web development!</em>
+
+- **NextJS** — A React Framework (SSR and SSG)
+- **Axios** — API requests
+- **Chakra UI** — A component library
+- **SASS** — CSS with superpowers
+- **Swiper** — Slider/Swiper library
+
+<br />
+
+## :computer: Installation
+
+### Step by step to run the application on your machine:
+
+Clone this repository:
+
+```
+  git clone https://github.com/sambuite/worldtrip.git
+
+  cd worldtrip
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the following scripts:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+  // Install the dependencies
+  npm install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  // Start the application
+  npm dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+or if you use yarn
 
-## Learn More
+```
+  // Install the dependencies
+  yarn
 
-To learn more about Next.js, take a look at the following resources:
+  // Start the application
+  yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
 
-## Deploy on Vercel
+> Developed by <a href="https://github.com/sambuite" target="_blank">Murilo Sambuite</a> at [Rocketseat Ignite](https://www.rocketseat.com.br/ignite).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="#top">Back to top</a>
